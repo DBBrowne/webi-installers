@@ -39,7 +39,8 @@ cargo install ripgrep
 
 ```bash
 cargo new hello --bin
+cd hello
 cargo build --release
-./hello
+./target/release/hello
 > "Hello, world!"
 ```
